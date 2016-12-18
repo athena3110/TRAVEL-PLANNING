@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>เข้าสู่ระบบ</title>
+  <meta charset="utf-8" />
+
+  <script type="text/javascript" src="../jquery/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="../jquery/js/easySlider1.7.js"></script>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+ <script type="text/javascript">
+  $(document).ready(function(){ 
+    $("#slider").easySlider({
+      auto: true, 
+          controlsShow:false,
+          speed: 1000
+    });
+  }); 
+  </script>
+
+
+</head>
+<body>
+  <div id="wrapper">
+
+  
+<div id="box-log">
+<form action="index.html">
+  
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+   
+
+</form>
+
+</div><!-- box-log -->
+
+
+</div>
+</body>
+</html>
+
